@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const mongoURI="mongodb://127.0.0.1:27017/notebook?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.9.1"
+const mongoURI="mongodb+srv://hraj37378:xF9uORFcuBTqIi2C@cluster0.ecvjx7a.mongodb.net/notesretryWrites=true&w=majority"
 
 const connectToMongo =()=>{
     mongoose.connect(mongoURI);
